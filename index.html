@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TokoWeb</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsif.css">
+        <script src="https://kit.fontawesome.com/ab4579c87e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="OutLayout">
+            <div class="InLayout">
+
+                <!-- Header -->
+        <header>
+            <h1 style="display: inline-block;">
+                <i class="fas fa-store"></i>
+                TokoWeb
+            </h1>
+
+                  <!-- Bar Pencarian -->
+                  <secton class="bar-search">
+                    <form action="#" method="GET">
+                        <input type="text" name="search" placeholder="Cari Product...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </secton>
+
+            <!-- Tampilan Navigasi -->
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Produk</a></li>
+                    <li><a href="#">Tentang</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Konten Utama -->
+        <main>
+            <section class="landing-page">
+                <h2>Selamat Datang di TokoWeb</h2>
+                <p>TokoWeb adalah tempat terbaik untuk berbelanja online. Temukan berbagai produk terbaru dengan harga terbaik.</p>
+                <a href="FormPendaftaran/Pendaftaran.html" class="btn">Daftar Sekarang</a>
+            </section>
+
+        <!-- Bagian Iklan-->
+            <section class="iklan">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                      <div class="slide">
+                        <img src="Images/sale.jpg" alt="Gambar 1">
+                      </div>
+                      <div class="slide">
+                        <img src="Images/diskon.jpg" alt="Gambar 2">
+                      </div>
+                      <div class="slide">
+                        <img src="Images/diskon3.jpg" alt="Gambar 3">
+                      </div>
+                    </div>
+                    <button class="prev">Previous</button>
+                    <button class="next">Next</button>
+                </div>                  
+            </section> 
+
+            <!-- Daftar Produk -->
+            <section class="produk">
+                <h2>Produk Terbaru</h2>
+                <div class="daftar-produk">
+
+                    <!-- Tampilan daftar produk secara dinamis -->
+                    <div class="produk-item">
+                        <img src="Images/produk.jpg" alt="Produk 1">
+                        <h3>Tas BluePinku</h3>
+                        <p>Harga: $99</p>
+                        <button>Buy</button>
+                    </div>
+
+                    <div class="produk-item">
+                        <img src="Images/produk2.jpg" alt="Produk 2">
+                        <h3>Sepatu Fly</h3>
+                        <p>Harga: $149</p>
+                        <button>Buy</button>
+                    </div>
+
+                    <div class="produk-item">
+                        <img src="Images/produk3.jpg" alt="Produk 2">
+                        <h3>Blacku Skincare</h3>
+                        <p>Harga: $178</p>
+                        <button>Buy</button>
+                    </div>
+
+                    <div class="produk-item">
+                        <img src="Images/produk4.jpg" alt="Produk 2">
+                        <h3>Pinku Skincare</h3>
+                        <p>Harga: $178</p>
+                        <button>Buy</button>
+                    </div>
+
+                    <!-- Tambahkan Lebih banyak produk -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Hak Cipta &copy; Kira 2023 TokoWeb. All rights reserved. | Temukan kami di media sosial:</p>
+            
+            <div class="social-media">
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+            </div>
+          </footer>
+            </div>
+        </div>
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>

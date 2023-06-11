@@ -1,0 +1,249 @@
+/* Bagian Umum */
+body {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Bagian Layout */
+  .OutLayout {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .InLayout {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  /* Bagian Header */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .bar-search {
+    margin: 20px;
+    float: right;
+  }
+  
+  .bar-search form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar-search input {
+    font-size: 15px;
+    float: right;
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .bar-search button {
+    background-color: white;
+    margin-right: 5px;
+    height: 38px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  /* Bagian Navigasi */
+  nav {
+    width: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  nav ul {
+    display: inline-block;
+    padding-right: 120px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 60px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Bagian Landing Page */
+  .landing-page {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .landing-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #727980;
+}
+  .btn:active {
+    background-color: #000000;
+}
+  
+  /* Bagian Produk */
+  .produk {
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .daftar-produk {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+  }
+  
+  .produk-item {
+    text-align: center;
+  }
+  
+  .produk-item img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  
+  .produk-item h3 {
+    margin: 10px 0;
+  }
+  
+  .produk-item p {
+    margin-bottom: 10px;
+  }
+  
+  .produk-item button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .produk-item button:hover {
+    background-color: #727980;
+}
+
+  .produk-item button:active {
+    background-color: #000000;
+}
+  
+  /* Bagian Footer */
+  footer {
+    height: 130px;
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  footer a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  footer a:hover{
+    background-color: #727980;
+  }
+  footer a:active{
+    background-color: #000000;
+  }
+  
+  /* Bagian Iklan */
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.3s ease;
+    height: 100%;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: #727980;
+  }
+
+  .prev:active,
+  .next:active {
+    background-color: #000000;
+  }
+  
+ 
